@@ -22,7 +22,7 @@
         object-fit: cover;
     }
 
-    &:hover ~ .card__title {
+    &:has(a:link):hover ~ .card__title {
         color: var(--color-product);
     }
 }

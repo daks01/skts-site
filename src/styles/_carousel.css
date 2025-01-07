@@ -1,0 +1,10 @@
+.splide__slide {
+    display: flex;
+}
+.splide__slide img{
+    margin: auto;
+}
+
+@media screen and (--screen-tablet) {
+
+}

@@ -5,7 +5,7 @@ html {
 }
 
 :target {
-	scroll-margin-top: var(--header-height);
+	scroll-margin-top: var(--size-6);
 }
 
 /*! ANIMATION ON SCROLL */

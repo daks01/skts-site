@@ -10,7 +10,9 @@
 @import '_footer.css';
 @import '_card.css';
 @import '_dialog.css';
-@import '_card.css';
+@import '_form.css';
+@import '_carousel.css';
+@import '_button.css';
 
 html {
   -ms-text-size-adjust: 100%;

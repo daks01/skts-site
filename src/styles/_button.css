@@ -1,0 +1,35 @@
+.button {
+  background: var(--color-product);
+  color: var(--color-white);
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  border: none;
+  border-radius: var(--size-1);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: var(--size-1) var(--size-2);
+  font-weight: 400;
+  text-decoration: none;
+  transition: filter 0.1s;
+  display: inline-flex;
+}
+.button_size-full {
+  width: 100%;
+}
+
+.button:hover {
+  filter: brightness(105%);
+}
+
+.button:active {
+  filter: brightness(97%);
+}
+
+@media screen and (--screen-tablet) {
+  .button {
+    width: 100%;
+  }
+}
