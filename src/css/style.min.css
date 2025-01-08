@@ -1061,6 +1061,7 @@ dialog.fixed {
   padding: var(--size-1) 0;
   background-color: var(--color-white);
   color: var(--color-black);
+  border-radius: 0;
   width: 100%;
 }
 
@@ -1071,7 +1072,7 @@ dialog.fixed {
 
 textarea.form-input {
   resize: vertical;
-  min-height: 39px;
+  min-height: 80px;
   max-height: 200px;
 }
 
@@ -1110,6 +1111,7 @@ textarea.form-input {
   justify-content: center;
   align-items: center;
   margin: 0;
+  font-family: inherit;
   font-weight: 400;
   text-decoration: none;
   transition: -webkit-filter .1s, filter .1s;

@@ -432,12 +432,6 @@
             <span>
                 &copy;2000-2025
             </span>
-            <a href="tel:+7 (495) 506 1097" class="footer__phone">
-                +7 (495) 506 1097
-            </a>
-            <address>
-                Россия, Москва, ул.Шаболовка,&nbsp;37, 115162
-            </address>
         </div>
     </footer>
 
@@ -464,13 +458,17 @@
                 <span class="sr-only">Номер телефона</span>
                 <input type="tel" class="form-input" name="phone" placeholder="Номер телефона" title="например: +7 XXX ХХХ-ХХ-ХХ">
             </label>
-            <br><br>
+            <label class="form-row">
+                <span class="sr-only">Ваше сообщение</span>
+                <textarea class="form-input" name="message" placeholder="Ваше сообщение"></textarea>
+            </label>
             <label class="form-row form-checkbox-label justify-content-center-sm">
                 <input type="checkbox" name="agree" required>
                 <small>
                     Выражаю свое согласие на&nbsp;обработку персональных данных
                 </small>
             </label>
+            <br>
             <div class="form-row">
                 <button type="submit" class="button button_size-full">Отправить</button>
             </div>
@@ -630,8 +628,7 @@
                 })
                 .catch(() => {
                     orderForm.innerHTML = `
-                        <p class="lead">❗ При отправке формы возникли проблемы.<br>
-                        Попробуйте позвонить нам</p>
+                        <p class="lead">❗ При отправке формы возникли проблемы.</p>
                     `;
                 });;
             });

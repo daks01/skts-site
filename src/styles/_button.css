@@ -11,6 +11,7 @@
   align-items: center;
   margin: 0;
   padding: var(--size-1) var(--size-2);
+  font-family: inherit;
   font-weight: 400;
   text-decoration: none;
   transition: filter 0.1s;
