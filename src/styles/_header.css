@@ -111,6 +111,21 @@
         background-color: rgba(0, 0, 0, 0.9);
     }
 
+    .header-logo {
+        width: 100px;
+        margin-top: 0;
+    }
+
+    .header__container {
+        align-items: center;
+    }
+
+    .header__lang {
+        flex-grow: 1;
+        justify-content: end;
+        display: flex;
+    }
+
     .header__burger {
         display: flex;
     }
@@ -148,8 +163,4 @@
         padding: calc(var(--module) * 2);
         text-align: center;
     }
-
-    .header-logo {
-        width: 100px;
-    } 
 }

@@ -51,9 +51,10 @@
     }
 
     .hero__title {
-        margin: var(--size-9) calc(var(--section-x-gutter) * -1) calc(var(--module) * 20);
+        margin: var(--size-9) calc(var(--section-x-gutter) / 2 * -1) calc(var(--module) * 20);
         padding: calc(var(--size-1) + var(--size-half));
-        font-size: var(--font-size);
-        font-weight: 600;
+        font-size: var(--heading-3);
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, .8);
     }
 }

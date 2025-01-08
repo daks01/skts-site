@@ -34,6 +34,25 @@
                 <img src="src/img/logo.svg" alt="логотип СКТС">
             </a>
 
+            <div class="header__lang">
+                <div class="hide-on-desktop">
+                    <button onclick="googleTranslateTo('en')" class="link" style="line-height: 0;">
+                        <span class="sr-only">Translate page to&nbsp;english</span> 
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <text fill="#fff" x="0" y="24" style="font-size: 22px;">en</text>
+                        </svg>
+                        &emsp;
+                    </button>
+                    <button onclick="googleTranslateTo('ru')" class="link" style="line-height: 0;">
+                        <span class="sr-only">Перевести страницу на&nbsp;русский</span> 
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <text fill="#fff" x="0" y="24" style="font-size: 22px;">ru</text>
+                        </svg>
+                        &emsp;
+                    </button>
+                </div>
+            </div>
+
             <button class="header__burger" data-nav-burger>
                 <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg"
                     focusable="false" aria-hidden="true">
@@ -61,7 +80,6 @@
                             КОНСАЛТИНГ
                         </a>
                     </li>
-
                     <li class="header__menu-item hide-on-desktop" style="margin-top: auto">
                         <a href="https://www.youtube.com/channel/UCYMyX5fSLjU4J9GUvSA5Hww"
                             target="_blank">
@@ -80,12 +98,6 @@
                             </svg>
                             <div class="sr-only">канал Youtube</div>
                         </a>
-                        <button onclick="googleTranslateTo('en')" class="link">
-                            <span class="sr-only">Translate page to&nbsp;english</span> en
-                        </button>
-                        <button onclick="googleTranslateTo('ru')" class="link">
-                            <span class="sr-only">Перевести страницу на&nbsp;русский</span> ru
-                        </button>
                     </li>
                 </ul>
             </nav>
@@ -112,13 +124,21 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <button onclick="googleTranslateTo('en')" class="header__menu-link">
-                            <span class="sr-only">Translate page to&nbsp;english</span> en
+                        <button onclick="googleTranslateTo('en')" class="header__menu-link" style="line-height: 0.5;">
+                            <span class="sr-only">Translate page to&nbsp;english</span> 
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <text fill="#fff" x="0" y="24" style="font-size: 16px;">en</text>
+                            </svg>
+                            &emsp;
                         </button>
                     </li>
                     <li class="header__menu-item">
-                        <button onclick="googleTranslateTo('ru')" class="header__menu-link">
-                            <span class="sr-only">Перевести страницу на&nbsp;русский</span> ru
+                        <button onclick="googleTranslateTo('ru')" class="header__menu-link" style="line-height: 0.5;">
+                            <span class="sr-only">Перевести страницу на&nbsp;русский</span> 
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <text fill="#fff" x="0" y="24" style="font-size: 16px;">ru</text>
+                            </svg>
+                            &emsp;
                         </button>
                     </li>
                 </ul>
